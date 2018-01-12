@@ -1,18 +1,26 @@
 <!DOCTYPE html>
+<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Tribute Page - Abraham Lincoln</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    
+
+      
   </head>
   <body>
+    <div id="main">
     <div class="container">
       <div class="wrapper">
-        <h1>Abraham Lincoln</h1>
-        <h3 class="text-center"><em>16th President - United States of America</em></h3>
-        <img src="./images/lincoln.jpg" alt="statue of seated Abraham Lincon">
-        <h3>Time Line of Lincoln's Life:</h3>
+        <h1 id="title">Abraham Lincoln</h1>
+        <div id="img-div">
+          <h3 class="text-center"><em>16th President - United States of America</em></h3>
+          <img src="./images/lincoln.jpg" alt="statue of seated Abraham Lincon" id="image">
+         <div id="img-caption">seated Abraham Lincoln</div>
+        </div>
+        <h3 id="tribute-info">Time Line of Lincoln's Life:</h3>
         <ul>
           <li><strong>1809</strong> - Born in a one-room log cabin in Nolin Creek in Kentucky</li>
           <li><strong>1833</strong> - Appointed Postmaster of New Salem, Illinois</li>
@@ -41,12 +49,13 @@
           <li><strong>1865</strong> - Assasinated at Ford's Theatre</li>
         </ul>
         <hr>
-        <h4>If you are interested in a more extensive time line, please take a look at this website <a href="http://www.historyplace.com/lincoln">The History Place.</a></h4>
+        <h4>If you are interested in a more extensive time line, please take a look at this website <a href="http://www.historyplace.com/lincoln" id="tribute-link" target="_blank">The History Place.</a></h4>
         <h4>Also, Dale Carnegie wrote a book in 1932 about Lincoln, <a href="https://en.wikipedia.org/wiki/Lincoln_the_Unknown"><em>Lincoln the Unknown</em></a>, which is a very interesting read.</h4>
         <footer>
           <p>Written and coded by <a href="http://www.freecodecamp.com/tonymorristm">Tony Morris</a></p>
         </footer>
       </div><!-- wrapper -->
     </div><!-- container -->
+  </div><!-- main -->
   </body>
 </html>

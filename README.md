@@ -1,3 +1,10 @@
+The new FCC-Beta now has tests that must pass in order to complete this project and you must fullfill the user stories by getting all of the tests to pass.
+
+I used the following CDN link and developed locally.
+https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js
+
+---
+
 This is the first basic front end development project created as part of the Free Code Camp curriculum.
 
 I originally created this on CodePen and used the Bootstrap framework, since the sample project had used this framework.
